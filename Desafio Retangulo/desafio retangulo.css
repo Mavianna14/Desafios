@@ -1,0 +1,27 @@
+*{
+
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: black;
+}
+
+main{
+    display: flexbox;
+  
+
+}
+
+div{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    position: absolute;
+    justify-items: center;
+    top: 25vh;
+    left: 80vh;
+    background-color: red;
+
+}
