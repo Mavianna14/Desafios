@@ -1,0 +1,26 @@
+td.nota{
+    text-align: center;
+    font-family: tahoma;
+    font-size: 12px;
+    background-color: yellow;
+}
+
+th{
+    font-style: italic;
+}
+
+th.nome{
+
+    background-color: pink;
+}
+
+th.cabecalho{
+    color: blue;
+}
+
+td.Final{
+    background-color: red;
+}
+
+caption{
+    font-size: x-small;}
