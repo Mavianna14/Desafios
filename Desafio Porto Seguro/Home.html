@@ -9,23 +9,32 @@
 <style>
     body{
         margin: 0;
+        position: fixed;
+       
     }
 
 header,footer{
     height: 10vh;
     background-color:aqua;
-
-    /* colocar em gradiente*/
+    background-image: linear-gradient( to right,
+     aqua, lightblue);
+     display: flex;
+     align-items: center;
+ 
 }
+
 
 main{
     height: 80vh;
+    width: 30vw;
     flex: 1;
+    border: solid 3px lightgray;
 }
 
 aside{
     height: 80vh;
-    width: 80vw;
+    width: 70vw;
+    
 
 
 }
@@ -33,6 +42,7 @@ aside{
 section{
     display: flex;
     flex-direction:row-reverse;
+    
 }
 
 
@@ -41,15 +51,43 @@ section{
 </head>
 <body>
 
-<header></header>
+<header>
+    <img 
+     src="https://logodownload.org/wp-content/uploads/2016/10/porto-seguro-logo-0.png
+    " alt="Logo Porto Seguro" width="99vw"  >
+</header>
 
 <section>
-<aside></aside>
+<aside>
+    <img src="https://img.freepik.com/vetores-premium/modelos-de-pagina-de-login-da-web-plana-moderna_2095-183.jpg?w=1060"
+     alt="Tela de Login" height="100%">
+</aside>
 
-<main></main>
+<main>
+    <br>
+   <p>Seguro de carros</p> 
+   <hr> <br>
+   <p>Seguro de Vida</p>
+   <hr> <br>
+    <p> Seguro Residencial</p>
+    <hr><br>
+    <p> Seguro Celular</p>
+    <hr><br>
+    <p>Seguro Bolsa</p>
+    <hr><br>
+    <p>Seguro Viagem</p>
+    <hr><br>
+    <p>Plano de Sáude Pet</p>
+    <hr><br>
+
+
+</main>
 </section>
 
-<footer></footer>
-
+<footer>
+    <img src="https://logodownload.org/wp-content/uploads/2016/10/porto-seguro-logo-0.png"
+     alt=" Logo footer" width="99vw">
+    
+</footer>
 </body>
 </html>
