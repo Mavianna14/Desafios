@@ -2,5 +2,15 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    display: flexbox;
+}
+
+header{
+    
+    height: 10vh;
+    background-color: aqua;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
 }
 
