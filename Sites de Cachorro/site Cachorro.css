@@ -1,16 +1,38 @@
-*{
+
+body{
     margin: 0;
-    box-sizing: border-box;
-    padding: 0;
-    display: flexbox;
+    position: fixed;
 }
 
 header{
-    
     height: 10vh;
     background-color: aqua;
     text-align: center;
-    padding-top: 25px;
-    font-size: 30px;
+    position: relative;
+    
+  
+
+
 }
 
+
+main{
+    height: 90vh;
+    width: 30vw;
+    flex: 1;
+    border: solid 3px lightgray;
+}
+
+aside{
+
+    height: 80vh;
+    width: 70vw;
+
+}
+
+section{
+
+    display: flex;
+    flex-direction: row-reverse;
+
+}
