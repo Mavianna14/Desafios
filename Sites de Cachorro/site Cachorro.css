@@ -5,29 +5,41 @@ body{
 }
 
 header{
+
+    display: flex;
     height: 10vh;
     background-color: aqua;
     text-align: center;
-    position: relative;
-    
-  
-
-
+    justify-content: center;
+    align-items: center;
+    font-size: 30px; 
 }
 
 
 main{
-    height: 90vh;
+    height: 89vh;
     width: 30vw;
     flex: 1;
     border: solid 3px lightgray;
 }
 
+ul{
+
+    padding: 5px;
+    padding-top: 80px;  
+}
+
 aside{
 
-    height: 80vh;
+    height: 89vh;
     width: 70vw;
 
+}
+
+table{
+    border: 1px solid gray;
+    width: 70vw;
+    height: 90vh;
 }
 
 section{
