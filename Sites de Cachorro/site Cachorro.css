@@ -12,7 +12,9 @@ header{
     text-align: center;
     justify-content: center;
     align-items: center;
-    font-size: 30px; 
+    font-size: 50px; 
+    font-family: rubik;
+
 }
 
 
@@ -37,9 +39,12 @@ aside{
 }
 
 table{
-    border: 1px solid gray;
-    width: 70vw;
-    height: 90vh;
+   
+    width: 69vw;
+    height: 80vh;
+    align-items: center;
+    text-align: center;
+    table-layout: fixed;
 }
 
 section{
@@ -47,4 +52,18 @@ section{
     display: flex;
     flex-direction: row-reverse;
 
+}
+
+
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: rubik;
+    font-size: 20px;
+}
+
+td{
+
+    width: 50%;
 }
